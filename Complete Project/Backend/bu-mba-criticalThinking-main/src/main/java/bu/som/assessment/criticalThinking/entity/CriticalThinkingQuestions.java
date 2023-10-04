@@ -31,28 +31,28 @@ public class CriticalThinkingQuestions {
     @Column(name = "choiceC")
     private int choiceC;
 
-    @Column(name = "questionDescription")
+    @Column(name = "questionDescription", length = 500)
     private String questionDescription;
 
-    @Column(name = "questionOption_1")
+    @Column(name = "questionOption_1", length = 500)
     private String questionOp1;
 
-    @Column(name = "questionOption_2")
+    @Column(name = "questionOption_2", length = 500)
     private String questionOp2;
 
-    @Column(name = "sectionDescription")
+    @Column(name = "sectionDescription", length = 500)
     private String sectionDescription;
 
-    @Column(name = "optionDescription")
+    @Column(name = "optionDescription", length = 500)
     private String optionDescription;
 
-    @Column(name = "answerOption_1")
+    @Column(name = "answerOption_1", length = 500)
     private String answerOp1;
 
-    @Column(name = "answerOption_2")
+    @Column(name = "answerOption_2", length = 500)
     private String answerOp2;
 
-    @Column(name = "answerOption_3")
+    @Column(name = "answerOption_3", length = 500)
     private String answerOp3;
 
 
